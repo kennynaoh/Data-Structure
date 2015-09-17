@@ -33,7 +33,7 @@ void insert(node** root, int n){
 // 		tmp->rchild = NULL;
 // 		tmp->l
 // 	}
-}
+//}
 
 bool is_in_bst(node* root, int number){
 	if(root == NULL) return false;

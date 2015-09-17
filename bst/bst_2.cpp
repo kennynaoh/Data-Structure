@@ -14,8 +14,7 @@ struct node{
 
 node* insert(node* root, int n){
 	if(root == NULL){
-		node *tmp;
-		tmp = (struct node *)malloc(sizeof(struct node));
+		node *tmp = (struct node *)malloc(sizeof(struct node));
 		tmp->data = n;
 		tmp->rchild = NULL;
 		tmp->lchild = NULL;
