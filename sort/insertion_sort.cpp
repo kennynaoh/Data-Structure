@@ -18,7 +18,7 @@ void insertsort(int *list, int number){
 
 int main(){
 	//int data[]={};
-	int number = 10;
+	int number;
 
 	printf("How many number do you want to sort?\n");
 	scanf("%d", &number);
